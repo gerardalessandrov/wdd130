@@ -79,6 +79,7 @@ body {
 header {
     background-color: black;
     opacity: .7;
+    color: green;
 }
 
 nav a:hover {
