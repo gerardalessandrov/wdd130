@@ -34,6 +34,7 @@ Fonts are separated by a | */
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
+
 body {
     max-width: 1200px;
     margin: 0 auto;
@@ -46,6 +47,13 @@ img {
     display: block;
     margin: 0 auto;
 }
+
+p {
+
+    white-space: pre-line;
+    margin: 0px;
+}
+
 
 h1,
 h2,
