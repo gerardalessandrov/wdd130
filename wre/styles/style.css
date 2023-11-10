@@ -51,6 +51,30 @@ h4 {
     text-align: center;
 }
 
+.river-box {
+    text-align: left;
+}
+
+p.align {
+    text-align: left;
+}
+
+p.align-center {
+    text-align: center;
+}
+
+p.align-right {
+    text-align: right;
+}
+
+.water-box {
+    text-align: center;
+}
+
+.canyon-box {
+    text-align: right;
+}
+
 main section {
     text-align: center;
 }
@@ -58,6 +82,7 @@ main section {
 #background {
     height: 725px;
 }
+
 
 .mountains {
     width: 100%;
@@ -81,6 +106,37 @@ header {
 nav a:hover {
     background-color: #E0E1DD;
     color: #A49E8D;
+}
+
+.river-idaho {
+    background-color: #E4D6A7;
+    text-decoration: none;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+
+.river-Utah {
+    background-color: #E4D6A7;
+    text-decoration: none;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.river-Canyon {
+    background-color: #E4D6A7;
+    text-decoration: none;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book {
@@ -137,6 +193,19 @@ nav a:hover {
     background-color: #D4E6B5;
     grid-column: 1/11;
     grid-row: 4/9;
+}
+
+#bak {
+    background-color: red;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.mensaje {
+    background-color: yellow;
+    color: blue;
+    grid-column: 8/10;
+    grid-row: 6/7;
 }
 
 .msg {
