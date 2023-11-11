@@ -7,6 +7,7 @@
     margin: 0 auto;
 }
 
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -129,6 +130,8 @@ nav a:hover {
     border-radius: 5px;
 }
 
+
+
 .river-Canyon {
     background-color: #E4D6A7;
     text-decoration: none;
@@ -196,14 +199,14 @@ nav a:hover {
 }
 
 #bak {
-    background-color: red;
+    background-color: #E0E1DD;
     grid-column: 1/11;
     grid-row: 4/9;
 }
 
 .mensaje {
-    background-color: yellow;
-    color: blue;
+    background-color: #A5243D;
+    color: #A9F0D1;
     grid-column: 8/10;
     grid-row: 6/7;
 }
@@ -219,6 +222,8 @@ nav a:hover {
 
 }
 
+
+
 footer {
     background-color: #C2F8CB;
     color: #006992;
@@ -228,6 +233,7 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
 
 .home-title {
     color: #E4D6A7;
@@ -307,6 +313,43 @@ h2 {
 footer .social img {
     padding-top: 15px;
 }
+
+.center {
+    background-color: #C2F8CB;
+    color: #006992;
+    padding: 25px 50px;
+    width: 18%;
+    margin-top: -75px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right {
+    background-color: #C2F8CB;
+    color: #006992;
+    padding: 25px 50px;
+    width: 18%;
+    margin-top: -75px;
+    margin-left: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.last-box {
+    background-color: #C2F8CB;
+    color: #006992;
+    padding: 25px 50px;
+    width: 7%;
+    margin-top: -75px;
+    margin-left: 1300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 .rivers-card {
     margin: 200px 0;
@@ -397,4 +440,6 @@ main section img {
     footer {
         margin-top: 25px;
     }
+
+
 }
