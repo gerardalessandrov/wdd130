@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100&family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100&family=Quicksand:wght@300&family=Rock+Salt&display=swap');
 
 body {
     background-color: white;
     margin: 0;
 
 
-
 }
 
 .background {
-    background-color: #F7F06D;
-    width: 1750px;
-    height: 1000px;
+    background-color: #D1FFC6;
+    width: 100%;
+    height: 1200px;
     margin-left: 400px;
     margin-top: -200px;
 
@@ -29,13 +27,13 @@ nav {
 
 }
 
-.computer:hover {
+.computer {
     box-shadow: 5px 5px 10px #6f7364;
     background-image: green;
     float: right;
-    margin-left: 30px;
-    margin-top: -5px;
-    margin-right: 70px;
+    margin-left: 10px;
+    margin-top: 60px;
+    margin-right: 400px;
 }
 
 #background {
@@ -43,30 +41,26 @@ nav {
     width: 300px;
 }
 
-.border1 {
-    background-color: #BA1F33;
-    opacity: .9;
-    color: white;
-    font-weight: bold;
-}
-
-.border2 {
-    background-color: #BA1F33;
-    color: white;
-    opacity: .9;
-    width: 200px;
-    font-weight: bold;
-}
-
+.border1,
+.border2,
 .border3 {
-    color: white;
-    background-color: #BA1F33;
+    background-color: white;
     opacity: .9;
+    color: #114B5F;
     font-weight: bold;
+    border-radius: 3px;
 }
+
+
 
 #image {
     background-color: red;
+}
+
+.border1:hover,
+.border2:hover,
+.border3:hover {
+    background-color: orange;
 }
 
 #position {
@@ -74,21 +68,20 @@ nav {
     display: flex;
     justify-content: space-around;
     font-size: 25px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rock Salt', cursive;
     text-align: center;
     margin-left: 80px;
 }
 
-.recto {
-    color: #2F2F2F;
-}
+
 
 #list {
-    background-color: #D5C7BC;
-    color: #723D46;
+    background-color: #BAD7F2;
+    color: rgb(36, 36, 189);
     display: block;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Rock Salt', cursive;
     border: #9C9583 5px solid;
+    font-size: 14px;
     font-weight: bold;
     text-align: left;
     width: 150px;
@@ -102,12 +95,12 @@ nav {
 .paragraph {
     border: #9C9583 5px solid;
     color: black;
-    background-color: rgb(251, 192, 82);
+    background-color: #F4FDAF;
     width: 400px;
     height: 600px;
-    margin-top: -1px;
-    font-family: 'Quicksand', sans-serif;
-    height: 600px;
+    margin-top: 100px;
+    font-family: 'Rock Salt', cursive;
+    height: 1000px;
     font-weight: bold;
     margin-left: 50px;
 }
@@ -126,11 +119,11 @@ nav {
     background-color: #F6E4F6;
     color: purple;
     text-align: center;
-    width: 300px;
-    height: 100px;
+    width: 500px;
+    height: 200px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 2em;
-    margin-top: -50px;
+    font-size: 3em;
+    margin-top: 300px;
     margin-left: 100px;
 
 }
@@ -138,20 +131,19 @@ nav {
 .designs {
     margin-left: 600px;
     margin-top: -1200px;
+    width: 100%;
+    height: 1000px;
 }
 
 footer {
-    border: green 5px solid;
-    width: 1500px;
-    background-color: #A4C2A5;
-    font-family: 'Quicksand', sans-serif;
+    border: 5px solid;
+    width: 100%;
+    height: 170px;
+    font-size: 30px;
+    margin-left: 50px;
+    background-color: #8fb6b4;
+    font-family: 'Rock Salt', cursive;
     font-weight: bold !important;
-}
-
-
-
-
-
-li {
-    color: blue;
+    margin-top: 150px;
+    color: black;
 }
