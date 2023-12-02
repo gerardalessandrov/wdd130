@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet " href="styles/page2.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find your preferences</title>
@@ -10,85 +11,81 @@
 <body>
     <header>
         <h1>Find your Preferences</h1>
-        <div>
-            <a href="home.html">Design</a>
-        </div>
-        <div>
-            <a href="page3.html">Create your personal web site</a>
-        </div>
-        <a href="https://www.canva.com/" target="_blank">Canvas</a>
-        <div>
-        </div>
-        <a href="https://coolors.co/0d1b2a-a5243d-647aa3-e0e1dd-8a9b68" target="_blank">Color Palette</a>
-        <div>
-            <div>
+        <div id="border">
+            <div class="design">
+                <a href="home.html">Design</a>
             </div>
-            <img src="https://tse3.mm.bing.net/th?id=OIP.ASQkTHgDJubHNJ1PAXgLKAHaF4&pid=Api&P=0&h=180"
-                alt="Preferences design" width="200">
+            <div class="web-site">
+                <a href="page3.html">Create your personal web site</a>
+            </div>
+            <div class="canvas">
+                <a href="https://www.canva.com/" target="_blank">Canvas</a>
+            </div>
+
+            <div class="color-palette">
+                <a href="https://coolors.co/0d1b2a-a5243d-647aa3-e0e1dd-8a9b68" target="_blank">Color Palette</a>
+            </div>
+            <div>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.ASQkTHgDJubHNJ1PAXgLKAHaF4&pid=Api&P=0&h=180"
+                    alt="Preferences design" width="200">
+            </div>
         </div>
     </header>
-    <main>
-        <article>
-            <aside>
-                <form>
-                    <li>
-                        <label for="name">What is you favorite design?</label>
-                        <input type="text" id="name" name="user_name">
-                    </li>
-                    <li>
-                        <label for="name">What is the purpose of your web page?</label>
-                        <input type="text" id="name" name="user_name">
-                    </li>
-                    <li>
-                        <label for="name">What do you want to transmit?</label>
-                        <input type="text" id="name" name="user_name">
-                    </li>
-                    <li>
-                        <label for="name">What audience is your page aimed at?</label>
-                        <input type="text" id="name" name="user_name">
-                    </li>
-                </form>
-            </aside>
-            <section>
-                <div>Types of web design</div>
-                <div>
-                </div>
-                <div>
-                    <img src="https://crehana-blog.imgix.net/media/filer_public/26/f6/26f6dc09-5499-47cf-8bf6-a8919dd0453e/planes_de_diseno_web_disenador_escritorio_documento.jpg?auto=format&q=50"
-                        width="100" alt="image1">
-                    <img src="https://4.bp.blogspot.com/-NS8BftIo84w/V3RyBhbz_7I/AAAAAAAAADU/ZBTiHP5s7Lk49yMVhIvGVxaN-dnpC9rVgCLcB/s1600/paginas-estaticas.png"
-                        width="100" alt="image2">
-                    <img src="https://molezun.agency/media/pages/blog/en-que-consiste-el-diseno-web-elastico/2378990561-1663604682/en-que-consiste-el-diseno-web-elastico-1200x630.jpg"
-                        width="100" alt="image3">
-                    <img src="https://image.freepik.com/vector-gratis/diseno-liquido-pagina-aterrizaje_23-2148266756.jpg"
-                        width="100" alt="image4">
-                    <img src="https://tse1.mm.bing.net/th?id=OIP.jnVCAdLvti4q_ZlCiTaoSgHaEO&pid=Api&P=0&h=180"
-                        width="100" alt="image5">
-                    <img src="https://buhoagenciadigital.com/wp-content/uploads/2021/01/diseno-de-una-pagina-web.jpg"
-                        width="100" alt="image6">
-                </div>
-            </section>
-            <footer>
-                The better way to create your web page is using your skills and purpose to made it
-            </footer>
-        </article>
-        <article>
-            <div>
-                <a href="https://www.sortlist.es/blog/diseno-web-ejemplos/" target="_blank">Web designs examples</a>
-                <a href="https://www.hostinger.es/tutoriales/inspiracion-disenos-web" target="_blank">Foints of
-                    inspiration</a>
-                <a href="https://emmanuelgutierrez.com/mejores-disenos-pagina-web-ejemplos-ideas-web-design-inspiration/"
-                    target="_blank">Best
-                    Web Pages</a>
-                <a href="https://www.youtube.com/watch?v=2yzHkGTnAe4" target="_blank">How to Organize & Create Your
-                    Website Content</a>
-                <div>
-                    <aside>
-                        <img src="https://pinguinodigital.com/wp-content/uploads/2020/07/estilos-de-p%C3%A1ginas-web1.png"
-                            width="1200" alt="content">
-                    </aside>
-        </article>
-    </main>
+    <h1 class="web-design-border">Types of web design</h1>
+    <form id="form">
+        <li>
+            <label for="name">What is you favorite design?</label>
+            <input type="text" id="name" name="user_name">
+        </li>
+        <li>
+            <label for="name">What is the purpose of your web page?</label>
+            <input type="text" id="name" name="user_name">
+        </li>
+        <li>
+            <label for="name">What do you want to transmit?</label>
+            <input type="text" id="name" name="user_name">
+        </li>
+        <li>
+            <label for="name">What audience is your page aimed at?</label>
+            <input type="text" id="name" name="user_name">
+        </li>
+    </form>
+
+    <div id="grid"">
+        <img class=" imagen1"
+        src="
+        https://crehana-blog.imgix.net/media/filer_public/26/f6/26f6dc09-5499-47cf-8bf6-a8919dd0453e/planes_de_diseno_web_disenador_escritorio_documento.jpg?auto=format&q=50"
+        width="250" alt="image1">
+        <img class="imagen1"
+            src="https://4.bp.blogspot.com/-NS8BftIo84w/V3RyBhbz_7I/AAAAAAAAADU/ZBTiHP5s7Lk49yMVhIvGVxaN-dnpC9rVgCLcB/s1600/paginas-estaticas.png"
+            width="250" alt="image2">
+        <img class="imagen1"
+            src="https://molezun.agency/media/pages/blog/en-que-consiste-el-diseno-web-elastico/2378990561-1663604682/en-que-consiste-el-diseno-web-elastico-1200x630.jpg"
+            width="250" height="165" alt="image3">
+
+        <img class="imagen2"
+            src="https://image.freepik.com/vector-gratis/diseno-liquido-pagina-aterrizaje_23-2148266756.jpg" width="250"
+            alt="image4">
+        <img class="imagen2" src="https://tse1.mm.bing.net/th?id=OIP.jnVCAdLvti4q_ZlCiTaoSgHaEO&pid=Api&P=0&h=180"
+            width="250" alt="image5">
+        <img class="imagen2"
+            src="https://buhoagenciadigital.com/wp-content/uploads/2021/01/diseno-de-una-pagina-web.jpg" width="250"
+            alt="image6">
+    </div>
+    <p id="way">The better way to create your web page is using your skills and purpose to made it</p>
+    <div id="links">
+        <a href="https://www.sortlist.es/blog/diseno-web-ejemplos/" target="_blank">Web designs examples</a>
+        <a href="https://www.hostinger.es/tutoriales/inspiracion-disenos-web" target="_blank">Foints of
+            inspiration</a>
+        <a href="https://emmanuelgutierrez.com/mejores-disenos-pagina-web-ejemplos-ideas-web-design-inspiration/"
+            target="_blank">Best
+            Web Pages</a>
+        <a href="https://www.youtube.com/watch?v=2yzHkGTnAe4" target="_blank">How to Organize & Create Your
+            Website Content</a>
+    </div>
+    <img class="second-image"
+        src="https://pinguinodigital.com/wp-content/uploads/2020/07/estilos-de-p%C3%A1ginas-web1.png" width="900"
+        alt="content">
     <footer>Keep in my the web page that you can create , this will permit you dont distract of your objective and
         vision or your web page</footer>
 </body>
